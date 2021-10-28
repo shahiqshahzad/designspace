@@ -1,0 +1,568 @@
+body {background-color: #000000;}
+* {
+  box-sizing: border-box;
+}
+.top_menu{
+  font-size: 20px;
+  font-family: 'Minimo', sans-serif;
+}
+.center-block {
+    display: block;
+    margin-left: 55px;
+    margin-right: auto;
+ }
+
+.img_2 {
+ width: 100%; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+/* Create three equals that floats next to each other */
+.column_3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.column_3_left {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-right: 80px;
+
+  }
+  .column_3_right {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+/*End three floats*/
+
+.column_4_right {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: -160px;
+}
+
+.column_4_center {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: -160px;
+
+}
+
+.column_4_left {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: 220px;
+}
+
+/* Clear floats after the columns */
+.row_3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the nav links */
+
+a{padding: 20px;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff5722;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #ff5722;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* END */
+#example1 {   
+  background:blue url(images/shoes.png) repeat-y;
+   background-size: 50% auto;
+   width: 100%;
+   height:500px;
+   padding: 15px;
+}
+.design_space {
+  color: white;
+  font-size: 48px;
+}
+/* Style the cards */
+* {
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-left: 20px;
+  
+}
+.column_branding {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-left: 20px;
+  }
+  .column_development {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-right: 20px;
+  }
+    
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.img_2 { 
+  width: 100%; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Style the counter cards */
+.card_b {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background:#262626 ;
+  background-image: url('images/shoes.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.card_d {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background:#262626 ;
+  background-image: url('images/laptopphone.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.card_dm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background:#262626 ;
+  background-image: url('images/phone.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.card_dv {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background:#262626 ;
+  background-image: url('images/laptop.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+/* END */
+
+
+/* STYLE THE BIG WORDS */
+.outline{
+font-size: 90px;
+color: black;
+font-family:  Awesome;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+}
+/* END */
+
+     /*==================== 
+      Footer 
+    ====================== */
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* email newsletter */
+    .home-newsletter {
+    padding: 0px 0;
+    background: #252525;
+    }
+    
+    .home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .home-newsletter .single h2 {
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+    .home-newsletter .single .form-control {
+      height: 40px;
+      background: #030303;
+      width: 87%; 
+      margin-left: -30px;}
+    .home-newsletter .single .form-control:focus {
+      box-shadow: none;
+      border-color: transparent;
+      border-width: small; }
+    .home-newsletter .single .btn {
+      min-height: 40px; 
+      background: #1d1586; 
+      color: #fff;
+      width: 60px;
+      height: 40px;
+      background-color: #ff5722;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column_foot_lc {
+      float: left;
+      width: 25%;
+      margin-top: 40px;
+      margin-left: -120px;
+    }
+  
+    .column_foot_rc {
+      float: left;
+      width: 25%;
+      margin-top: 40px;
+      margin-left: 0px;
+    }
+  
+    .column_foot_left {
+      float: left;
+      width: 25%;
+      margin-left: 90px;
+      margin-top: 40px;
+    }
+    .column_foot_right {
+      float: left;
+      width: 25%;
+      margin-top: 40px;
+      margin-left: -40px;
+      margin-right: -160px;
+    }
+    
+    /* Clear floats after the columns */
+    .row_footer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+      /* Main Footer */
+      footer .main-footer{  padding: 20px 0;  background: #252525;}
+      footer ul{  padding-left: 0;  list-style: none;}
+      
+      
+      /* Footer Top */
+      .footer-top{  background: #252525;  padding-bottom: 30px; margin-bottom: 30px;  border-bottom: 3px solid #222;}
+      
+      /* Footer transparent */
+      footer.transparent .footer-top, footer.transparent .main-footer{  background: transparent;}
+      footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+      
+      /* Footer light */
+      footer.light .footer-top{ background: #f9f9f9;}
+      footer.light .main-footer{  background: #f9f9f9;}
+      footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+      
+      /* Footer 4 */
+      .footer- .logo {    display: inline-block;}
+      
+      /*==================== 
+        Widgets 
+      ====================== */
+      .widget{  padding: 20px;  margin-bottom: 40px;}
+      .widget.widget-last{  margin-bottom: 0px;}
+      .widget.no-box{ padding: 0; background-color: transparent;  margin-bottom: 40px;
+        box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+      .widget.subscribe p{  margin-bottom: 18px;}
+      .widget li a{ color: #fff;}
+      .widget li a:hover{ color: #aaa;text-decoration: none;}
+      .widget-title {margin-bottom: 20px;}
+  
+      .widget-title.text-center span,.widget-title.text-center span::after {margin-left: 5%;margin-right:5%;left: 0;right: 0;}
+      .widget .badge{ float: right; background: #7f7f7f;}
+      
+      .typo-light h1, 
+      .typo-light h2, 
+      .typo-light h3, 
+      .typo-light h4, 
+      .typo-light h5, 
+      .typo-light h6,
+      .typo-light p,
+      .typo-light div,
+      .typo-light span,
+      .typo-light small{  color: #fff;}
+      
+      ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+      ul.social-footer2 li {display: inline-block;padding: 0;}
+      ul.social-footer2 li a:hover {background-color:#ff5722;}
+      ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+      .btn{background-color: #ff5722; color:#fff;}
+      .btn:hover, .btn:focus, .btn.active {background: #ff5722 ;color: #fff;
+      -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      -webkit-transition: all 250ms ease-in-out 0s;
+      -moz-transition: all 250ms ease-in-out 0s;
+      -ms-transition: all 250ms ease-in-out 0s;
+      -o-transition: all 250ms ease-in-out 0s;
+      transition: all 250ms ease-in-out 0s;
+      
+      }
+      
+      h3.footer-titles {
+        box-sizing: border-box;
+        color: #ffffff;
+        display: block;
+        font-family: FontAwesome;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.1em;
+        margin-bottom: 10;
+        margin-left: 0;
+        margin-top: 24px;
+      }
+    
+      .fa {
+          display: inline-block;
+          font: normal normal normal 80px/1 FontAwesome;
+          background-color: #fff;
+          color: #fff;
+          background: #fff;
+          padding: 12px;
+          border-radius: 5px;
+      }
+      
+      #subscribe-box .emailfield {
+          margin: auto;
+    
+      }
+    
+      input[type="text"] {
+          background: rgba(255,255,255,0.075);
+          padding: 10px 15px;
+          color: #aaa;
+          border: 3px solid rgba(0,0,0,0.1);
+          font-size: 14px;
+          margin-bottom: 16px;
+          border-radius: 5px;
+          transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+          transition-delay: 0.2s;
+          text-align: center;
+          width: 110%;
+      }
+      .button {
+        background: rgba(255,255,255,0.075);
+        border: 3px solid rgba(0,0,0,0.1);
+        color: rgb(156, 153, 153);
+        border-color:  rgba(0,0,0,0.1);
+        box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+        transition-delay: 0s;
+        width: 140%;
+        font-size: 14px;
+        /* font-weight: 700; */
+        border: 0px solid;
+        transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+        padding: 10px 15px;
+        margin-bottom: 16px;
+        border-radius: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    .button:hover {background-color: #525552}
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    .button:active {
+      background-color: #030303;
+      box-shadow: 0 5px rgb(34, 33, 33);
+      transform: translateY(4px);
+    }
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+      form {
+      border: 4px solid #252525;
+    }
+    
+    /* Add some padding and a grey background color to containers */
+    
+    
+    /* Style the input elements and the submit button */
+    input[type=text], input[type=submit] {
+      width: 110%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #252525;
+      box-sizing: border-box;
+    }
+    
+    /* Add margins to the checkbox */
+    input[type=checkbox] {
+      margin-top: 16px;
+    }
+    
+    /* Style the submit button */
+    input[type=submit] {
+      background-color: #0f0f0f;
+      color: #e3e2e7;
+      border: none;
+    }
+    
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+      
+      .thumb-content ::before {
+          content: "\f190";
+          font-family: Lato, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          margin-left: 5px;
+          color: #ffffff;
+      }
+      p.footer-links {
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, 0.8);
+        display: block;
+        font-family: Lato, sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        line-height: 1.8em;
+        margin-bottom: 16px;
+        margin-top: 2px;
+        margin-left: -5%;
+      }
+    
+      .newsletter {
+    padding: 80px 0;
+    background: #252525;
+    }
+    
+    /*Image Rotation */
+    #responsive-image {  width: 65%;  height: auto; } 
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #ff5722;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #f8f5f5;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #ff5722;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    background: #ff5722;
+    color: #fff;
+    font-weight:600;
+    border-color: #f5f5f8;
+    }
+    
+    
+    
+    
+    * {box-sizing: border-box}
+    .mySlides1 {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    
+    .prev, .next {
+      outline: #fff;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -10px;
+      font-weight: bold;
+      font-size: 40px;
+      transition: 0.6s ease;
+      border-radius: 50%;
+      user-select: none;
+      height:40px;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 50%;
+    }
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      color: #fff;
+    }
